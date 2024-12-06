@@ -1,0 +1,660 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.xyz {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.circle {
+  font-size: 40px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  margin-left: -30px;
+}
+
+.companyName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+}
+
+.divSearchBox {
+  width: 552px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  height: 6.5vh;
+}
+
+.navSearchBox {
+  border-radius: 30px;
+  height: 6vh;
+}
+
+.search {
+  margin-right: 10px;
+  font-size: larger;
+}
+
+.navLoginBtn {
+  height: 5.5vh;
+  width: 6vw;
+  margin-right: 9px;
+  background-color: white;
+}
+
+.navSignupBtn {
+  height: 5.5vh;
+  width: 6vw;
+  margin-right: 9px;
+  color: #000000;
+  background-color: white;
+}
+
+.border-1 {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+}
+
+/* login page */
+
+.omegacoders {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.megaCoders {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(11, 11, 38);
+  font-size: 400%;
+  color: #a41af4;
+}
+
+.omega {
+  font-size: 400%;
+  color: #a41af4;
+}
+
+.signUpBtn {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+}
+
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#000000, #dfdfdf);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#000000, #dfdfdf);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(207, 100%, 66%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+
+
+.div1 {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: start;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* master page */
+
+.masterPage {
+  height: 100%;
+  width: 20vw;
+  overflow: auto;
+}
+.masterPage ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.masterPage ul li {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 30px;
+}
+
+.masterPage .active {
+  border-left: 5px solid rgb(3, 3, 3);
+  width: 100%;
+}
+
+
+/* detail page */
+
+.detailsPage {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  text-align: center;
+  align-items: left;
+  width: 82vw;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.importantNotes {
+  display: flex;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.aboutDennis {
+  padding-left: 5%;
+  font-weight: bold;
+}
+
+.dennisPhoto {
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px black,
+    0 0 45px rgba(0, 0, 0, 0.937),
+    0 0px 0px rgb(236, 5, 5);
+}
+
+.syntexOfC {
+  padding-top: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 40%;
+  padding-bottom: 30px;
+}
+
+.syntexNotes {
+  display: flex;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.rounded {
+  width: 100%;
+  height: 40px;
+  color: aliceblue;
+  background-color: rgb(93, 95, 95);
+}
+
+.pageEnd {
+  background-color: rgb(93, 95, 95);
+  color: rgb(0, 0, 0);
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 250%;
+}
+
+.cssInventor {
+  border-radius: 20px;
+  height: 50vh;
+}
+
+/* java  */
+
+.jamesGosling {
+  border-radius: 20px;
+  height: 50vh;
+  box-shadow: 1px 1px 2px black,
+    0 0 45px rgba(0, 0, 0, 0.937),
+    0 0px 0px rgb(236, 5, 5);
+}
+
+/* PLANS AND PRICING PAGE*/
+.xxyyzz {
+  height: 90vh;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin-top: 6px;
+  justify-content: center;
+  width: auto;
+}
+
+.plansHeading {
+  height: 20vh;
+  padding-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.plansDiv {
+  background-color: #f7f9fa;
+  height: 70vh;
+  width: 28vw;
+  border-radius: 15px;
+  border: 0.5px solid rgb(9, 129, 39);
+  border-top: 5px solid rgb(9, 129, 39);
+}
+
+.font_XXlarge {
+  font-family: Monospace;
+  font-size: 50px;
+  color: #000000;
+}
+
+
+.plansDivFirst {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.inside1 {
+  background-color: #cdd5d3;
+  height: 17.5vh;
+  width: 27.8vw;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  padding: 20px;
+}
+
+.inside2 {
+  height: 51.5vh;
+  width: 27.8vw;
+  padding: 20px;
+  background-color: #f7fcfb;
+  padding: 20px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+}
+
+.insideSecond {
+  background-color: #f1ebeb;
+  height: 17.5vh;
+  width: 27.8vw;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  padding: 20px;
+}
+
+.people {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.startsubscription {
+  height: 6vh;
+  width: 25vw;
+  margin-bottom: 4%;
+  color: rgb(255, 255, 255);
+}
+
+.colorGreen {
+  color: green;
+  margin-bottom: 1%;
+  font-size: x-large;
+}
+
+.plansPageEnd {
+  color: rgb(255, 255, 255);
+  padding-left: 2%;
+}
+
+.d-flex4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* REUSABLE CSS */
+
+.bg-color-black {
+  background-color: rgb(1, 2, 2);
+}
+
+.color-white {
+  color: white;
+}
+
+.bulletRemove {
+  list-style-type: none;
+}
+
+.fs-25 {
+  font-size: 20px;
+}
+
+.cartLogo {
+  margin-right: 9px;
+}
+.kuchbhi{
+  height: 6vh;
+  width: 3.1vw;
+}
+
+.marginLeft-15 {
+  margin-left: 15px;
+}
+
+.marginRight-15 {
+  margin-right: 15px;
+}
+
+.height-40 {
+  height: 40px;
+}
+
+.whatIsC {
+  padding-top: 40px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-grey {
+  background-color: #dadfe2cd;
+}
+
+.marginLeft-15 {
+  margin-left: 15px;
+}
+
+.height {
+  height: 28%;
+}
+
+.border-1px {
+  border-bottom: 1px solid white;
+}
+
+.padding-right {
+  padding-right: 20%;
+}
+
+.font-Size {
+  font-size: xx-large;
+}
+
+.fontMonospace {
+  font-family: Monospace;
+}
+
+.fontFantacy {
+  font-family: Fantasy;
+}
+
+.padding-top {
+  padding-top: 15px;
+}
+
+.xyz1 {
+  margin-top: 5px;
+  margin-left: 1px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.margin-left-37 {
+  margin-left: 38.5%;
+}
+
+/* home page  */
+
+.homeImage {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-div {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.textImg {
+  padding: 10px;
+  margin-left: 5%;
+  width: 30vw;
+  height: 30vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* payment page */
+
+.div1Payment {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.paymentForm {
+  height: 60vh;
+  width: 60vw;
+  border-radius: 15px;
+}
+
+.xyzzzz {
+  display: flex;
+  width: 50vw;
+}
+
+/* dropdown for categories nav bar */
+
+.dropbtn {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* business page starts here */
+
+.businessdiv1 {
+  width: 100vw;
+  height: 90vh;
+  background-color: #000000;
+}
+
+.firstdiv {
+  width: 50vw;
+  height: 90vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 3%; */
+  padding-left: 6%;
+}
+
+.heading2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.seconddiv {
+  width: 50vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 252, 252);
+}
+
+.insideSecondDiv {
+  width: 50vw;
+  height: 90vh;
+  /* background-color: rgb(245, 245, 245); */
+}
+
+.inputBox {
+  height: 50px;
+}
+
+.width41 {
+  width: 43%;
+}
+
+.width88 {
+  width: 88%;
+}
+
+.hello {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.border00{
+  border: 1px solid black;
+}
+.loginBigOmega{
+  font-size: 3000%;
+}
+
+/* rotate */
+
+.rotate-icon {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(1sec);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
